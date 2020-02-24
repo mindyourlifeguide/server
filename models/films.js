@@ -10,6 +10,6 @@ const FilmsSchema = new Schema({
 	stars: Array,
 });
 
-const Film = model('film', FilmsSchema);
+const Films = model('Films', FilmsSchema);
 
-module.exports = Film;
+module.exports = Films;
