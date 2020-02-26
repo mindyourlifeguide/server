@@ -5,7 +5,7 @@ const { Schema, model, ObjectId } = mongoose;
 const FilmsSchema = new Schema({
 	id: ObjectId,
 	title: String,
-	release_year: Number,
+	releaseYear: Number,
 	format: String,
 	stars: Array,
 });
